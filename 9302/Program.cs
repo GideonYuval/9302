@@ -12,10 +12,10 @@ namespace _9302
         {
         }
 
-        static Queue<int> Arr2Q(int[] arr)
+        static Queue<T> Arr2Q<T>(T[] arr)
         {
-            Queue<int> q = new Queue<int>();
-            foreach (int value in arr)
+            Queue<T> q = new Queue<T>();
+            foreach (T value in arr)
                 q.Insert(value);
             return q;
         }
