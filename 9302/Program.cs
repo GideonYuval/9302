@@ -53,7 +53,7 @@ namespace _9302
         //get a queue of doubles
         //return a queue of doubles, each double is the sum of positive sequences
         //example: q=[5.1, -2.2, -6.0, 0.5, 4.5, 2.0, -3.6, 2.2, 1.5], return: head[5.1, 7.0, 3.7]
-        static Queue<int> SumPosSeq(Queue<double> q)
+        static Queue<double> SumPosSeq(Queue<double> q)
         {
             return null;
 
