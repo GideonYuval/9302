@@ -63,6 +63,7 @@ namespace _9302
         //get a queue of ints and int k
         //return a queue of ints which includes for each k-digit sequence, the length of sequence
         //example: k=3, q=[987, 12, 100, 75, 770, 880, 990, 35, 200, 123], return: head[1,1,3,2]
+        //tip: use .ToString().Length to get number of digits
         static Queue<int> KLenSeq(Queue<int> q)
         {
             return null;
