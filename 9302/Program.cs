@@ -43,6 +43,7 @@ namespace _9302
         //get a queue of chars
         //return a queue of char sequence lengths
         //example: q = ['(', '(', 4, 'A','A','A','%','%','%'] -> return: head[2,1,3,3]
+        //tip - what's the smallest number in the returned queue?
         static Queue<int> CharSeq (Queue<char> q)
         {
             return null;
@@ -63,6 +64,11 @@ namespace _9302
         //get a queue of ints and int k
         //return a queue of ints which includes for each k-digit sequence, the length of sequence
         //example: k=3, q=[987, 12, 100, 75, 770, 880, 990, 35, 200, 123], return: head[1,1,3,2]
+        //explanation:
+        //987 - 3 digits, 12 - stop sequence -> seq length = 1
+        //100 - 3 digits, 75 - stop sequence -> seq length = 1
+        //770+880+990 - 35 - stop sequence -> seq length = 3
+        //200+123 - seq length = 2 (end of Queue)
         //tip: use .ToString().Length to get number of digits
         static Queue<int> KLenSeq(Queue<int> q)
         {
