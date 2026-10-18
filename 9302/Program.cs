@@ -43,6 +43,7 @@ namespace _9302
         //get a queue of chars
         //return a queue of char sequence lengths
         //example: q = ['(', '(', 4, 'A','A','A','%','%','%'] -> return: head[2,1,3,3]
+        //example: q = ['(', 4, 'A','%'] -> return: head[1,1,1,1]
         //tip - what's the smallest number in the returned queue?
         static Queue<int> CharSeq (Queue<char> q)
         {
