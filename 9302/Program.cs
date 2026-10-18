@@ -70,7 +70,7 @@ namespace _9302
         //100 - 3 digits, 75 - stop sequence -> seq length = 1
         //770+880+990 - 35 - stop sequence -> seq length = 3
         //200+123 - seq length = 2 (end of Queue)
-        //tip: use .ToString().Length to get number of digits
+        //tip: use .ToString().Length to get number of digits (or write the function yourselves...)
         static Queue<int> KLenSeq(Queue<int> q)
         {
             return null;
